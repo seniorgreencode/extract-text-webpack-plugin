@@ -19,8 +19,6 @@ export default (source) => source;
 export function pitch(request) {
   const query = loaderUtils.getOptions(this) || {};
   let loaders = this.loaders.slice(this.loaderIndex + 1);
-  this.addDependency(this.resourcePath);
-
   // We already in child compiler, return empty bundle
   // eslint-disable-next-line no-undefined
   if (this[NS] === undefined) {

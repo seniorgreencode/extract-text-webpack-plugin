@@ -1,3 +1,11 @@
+# DEPRECATED
+
+Please use: https://github.com/webpack-contrib/mini-css-extract-plugin
+
+If you have problem(s) with migration on MiniCssExtractPlugin feel free to open issue with reproducible test repo, thanks
+
+---
+
 [![npm][npm]][npm-url]
 [![node][node]][node-url]
 [![deps][deps]][deps-url]
@@ -28,6 +36,8 @@ npm install --save-dev extract-text-webpack-plugin@1.0.1
 ```
 
 <h2 align="center">Usage</h2>
+
+> :warning: Since webpack v4 the `extract-text-webpack-plugin` should not be used for css. Use [mini-css-extract-plugin](https://github.com/webpack-contrib/mini-css-extract-plugin) instead.
 
 > :warning: For webpack v1, see [the README in the webpack-1 branch](https://github.com/webpack/extract-text-webpack-plugin/blob/webpack-1/README.md).
 
